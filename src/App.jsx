@@ -8,7 +8,6 @@ import HomePage from "./pages/HomePage/HomePage";
 import RoomsPage from "./pages/RoomsPage/RoomsPage";
 import RoomDeteilsPage from "./pages/RoomDeteilsPage/RoomDeteilsPage";
 import ContactPage from "./pages/ContactPage/ContactPage";
-import "./App.css";
 
 function App() {
   return (
