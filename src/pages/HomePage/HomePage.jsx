@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <div className={s.homeCont}>
       <img
-        src="../../../public/images/20200704_125550_Original.JPEG"
+        src="../../../images/20200704_125550_Original.JPEG"
         alt="Фото готелю"
         className={s.img}
       />
@@ -30,17 +30,17 @@ const HomePage = () => {
         </p>
         <div className={s.imgCont}>
           <img
-            src="../../../public/images/20200704_125609_Original.JPEG"
+            src="../../../images/20200704_125609_Original.JPEG"
             alt="Фото готелю"
             className={s.imgNext}
           />
           <img
-            src="../../../public/images/20200704_131858_Original.JPEG"
+            src="../../../images/20200704_131858_Original.JPEG"
             alt="Фото готелю"
             className={s.imgNext}
           />
           <img
-            src="../../../public/images/20200704_131924_Original.JPEG"
+            src="../../../images/20200704_131924_Original.JPEG"
             alt="Фото готелю"
             className={s.imgNext}
           />
