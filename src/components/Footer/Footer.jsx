@@ -12,7 +12,7 @@ const Footer = () => {
     <footer className={s.footer}>
       <div className={s.footerImgText}>
         <img
-          src="../../../public/images/Preview.png"
+          src="../../../images/Preview.png"
           alt="Фото готелю"
           className={s.imgFooter}
         />

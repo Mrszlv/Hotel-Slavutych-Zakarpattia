@@ -22,7 +22,7 @@ const Header = () => {
     <header className={s.header}>
       <div className={s.logoTitle}>
         <img
-          src="../../../public/images/Preview.png"
+          src="../../../images/Preview.png"
           alt="Logo"
           className={s.imgLogo}
         />
