@@ -31,7 +31,7 @@ const RoomDeteilsPage = () => {
     <div className={s.roomCont}>
       <h1 className={s.title}>{room.name}</h1>
       <div className={s.imgCont}>
-        <button onClick={prevImage} className={s.btnDeteils}>
+        <button onClick={prevImage} className={s.btnGallery}>
           <GrFormPreviousLink className={s.iconDeteilis} />
         </button>
         <img
@@ -39,14 +39,16 @@ const RoomDeteilsPage = () => {
           alt={`${room.name} - photo ${currentImage + 1}`}
           className={s.img}
         />
-        <button onClick={nextImage} className={s.btnDeteils}>
+        <button onClick={nextImage} className={s.btnGallery}>
           <GrFormNextLink className={s.iconDeteilis} />
         </button>
       </div>
       <div className={s.textContDeteils}>
-        <p>{room.description}</p>
-        <p>Ціна: ₴{room.price}</p>
-        <Link to={"/rooms"}>Номери</Link>
+        <p className={s.textDeteils}>{room.description}</p>
+        <p className={s.textPrice}>Ціна за ніч: ₴{room.price}</p>
+        <Link to={"/rooms"} className={s.linkDeteils}>
+          Номери
+        </Link>
       </div>
     </div>
   );

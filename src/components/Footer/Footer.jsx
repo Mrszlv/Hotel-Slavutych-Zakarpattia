@@ -14,9 +14,11 @@ const Footer = () => {
         <img
           src="../../../public/images/Preview.png"
           alt="Фото готелю"
-          className={s.img}
+          className={s.imgFooter}
         />
-        <p>© 2025 Славутич-Закарпаття. Усі права захищені.</p>
+        <p className={s.footerText}>
+          © 2025 Славутич-Закарпаття. Усі права захищені.
+        </p>
       </div>
       <nav className={s.nav}>
         <NavLink to="/" className={buildLinkClass}>
