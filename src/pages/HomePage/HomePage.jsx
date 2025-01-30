@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <div className={s.homeCont}>
       <img
-        src="../../../images/20200704_125550_Original.JPEG"
+        src="https://res.cloudinary.com/ddqtzq55a/image/upload/v1735994324/i4mkkccsafnw40x9phzn.jpg"
         alt="Фото готелю"
         className={s.img}
       />
