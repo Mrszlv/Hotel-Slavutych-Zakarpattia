@@ -68,8 +68,8 @@
   }
 
   .img {
-    width: 50%;
-    height: 895px;
+    width: 600px;
+    height: 800px;
   }
 
   .title {
@@ -85,7 +85,7 @@
   }
 
   .imgNext {
-    width: 300px;
-    height: 480px;
+    width: 255px;
+    height: 325px;
   }
 }
