@@ -20,17 +20,6 @@ const Footer = () => {
           © 2025 Славутич-Закарпаття. Усі права захищені.
         </p>
       </div>
-      <nav className={s.nav}>
-        <NavLink to="/" className={buildLinkClass}>
-          Головна
-        </NavLink>
-        <NavLink to="/rooms" className={buildLinkClass}>
-          Номери
-        </NavLink>
-        <NavLink to="/contacts" className={buildLinkClass}>
-          Контакти
-        </NavLink>
-      </nav>
     </footer>
   );
 };
