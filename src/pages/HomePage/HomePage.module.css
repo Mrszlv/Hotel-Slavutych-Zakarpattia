@@ -58,3 +58,33 @@
     height: 150px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .homeCont {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .img {
+    width: 50%;
+    height: 895px;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+
+  .text {
+    font-size: 20px;
+  }
+
+  .textNext {
+    font-size: 30px;
+  }
+
+  .imgNext {
+    width: 300px;
+    height: 480px;
+  }
+}
