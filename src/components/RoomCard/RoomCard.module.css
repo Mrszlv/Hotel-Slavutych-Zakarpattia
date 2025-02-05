@@ -62,4 +62,21 @@
     object-fit: cover;
     width: 50%;
   }
+
+  .titleRoom {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .img {
+    height: 400px;
+  }
+
+  .titleRoom {
+    font-size: 30px;
+  }
+  .texstDesc {
+    font-size: 20px;
+  }
 }
