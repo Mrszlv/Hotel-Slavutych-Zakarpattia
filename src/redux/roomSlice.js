@@ -158,6 +158,20 @@ const initialState = {
         "../../public/images/20200704_125550_Original.JPEG",
       ],
     },
+    {
+      id: 11,
+      name: "Їдальня Славутич Закарпаття",
+      price: 490,
+      description:
+        "Тут є можливість спробувати страви закарпатської та європейської кухонь, також замовити комплексне дієтичне харчування",
+      avatar:
+        "https://res.cloudinary.com/ddqtzq55a/image/upload/v1738924409/20200704_132628_Original_giy2ug.jpg",
+      images: [
+        "https://res.cloudinary.com/ddqtzq55a/image/upload/v1738924409/20200704_132643_Original_y3eew9.jpg",
+        "https://res.cloudinary.com/ddqtzq55a/image/upload/v1738924409/20200704_132701_Original_mvnysh.jpg",
+        "https://res.cloudinary.com/ddqtzq55a/image/upload/v1738924409/20200704_132628_Original_giy2ug.jpg",
+      ],
+    },
   ],
 };
 

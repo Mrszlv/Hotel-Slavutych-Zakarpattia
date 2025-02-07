@@ -70,7 +70,7 @@
   }
 
   .img {
-    width: 600px;
+    width: 45%;
     height: 800px;
   }
 
@@ -87,7 +87,7 @@
   }
 
   .imgNext {
-    width: 255px;
-    height: 310px;
+    width: 33%;
+    height: 315px;
   }
 }

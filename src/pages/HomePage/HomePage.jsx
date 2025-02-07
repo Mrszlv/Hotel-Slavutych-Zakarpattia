@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <div className={s.homeCont}>
       <img
-        src="https://res.cloudinary.com/ddqtzq55a/image/upload/v1738249381/%D1%82%D0%B5%D1%80%D0%B8%D1%82%D0%BE%D1%80%D1%96%D1%8F-3_yzcbm0.jpg"
+        src="https://res.cloudinary.com/ddqtzq55a/image/upload/v1738856952/IMG_6422_es3peo.jpg"
         alt="Фото готелю"
         className={s.img}
       />
@@ -30,17 +30,17 @@ const HomePage = () => {
         </p>
         <div className={s.imgCont}>
           <img
-            src="https://res.cloudinary.com/ddqtzq55a/image/upload/v1738249381/%D1%82%D0%B5%D1%80%D0%B8%D1%82%D0%BE%D1%80%D1%96%D1%8F-4_sirg77.jpg"
+            src="https://res.cloudinary.com/ddqtzq55a/image/upload/v1738924893/IMG_2479_vatdmv.jpg"
             alt="Фото готелю"
             className={s.imgNext}
           />
           <img
-            src="https://res.cloudinary.com/ddqtzq55a/image/upload/v1738249381/%D1%82%D0%B5%D1%80%D0%B8%D1%82%D0%BE%D1%80%D1%96%D1%8F-2_fqrmyc.jpg"
+            src="https://res.cloudinary.com/ddqtzq55a/image/upload/v1738924956/IMG_2323_ugwyq6.jpg"
             alt="Фото готелю"
             className={s.imgNext}
           />
           <img
-            src="https://res.cloudinary.com/ddqtzq55a/image/upload/v1738249379/%D1%82%D0%B5%D1%80%D0%B8%D1%82%D0%BE%D1%80%D1%96%D1%8F-1_t5bkc1.jpg"
+            src="https://res.cloudinary.com/ddqtzq55a/image/upload/v1738925137/IMG_1420_btmbth.jpg"
             alt="Фото готелю"
             className={s.imgNext}
           />

@@ -8,6 +8,7 @@ import HomePage from "./pages/HomePage/HomePage";
 import RoomsPage from "./pages/RoomsPage/RoomsPage";
 import RoomDeteilsPage from "./pages/RoomDeteilsPage/RoomDeteilsPage";
 import ContactPage from "./pages/ContactPage/ContactPage";
+import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/rooms" element={<RoomsPage />} />
             <Route path="/rooms/:id" element={<RoomDeteilsPage />} />
             <Route path="/contacts" element={<ContactPage />} />
+            <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </main>
         <Footer />

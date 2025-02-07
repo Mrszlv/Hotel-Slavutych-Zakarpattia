@@ -9,7 +9,7 @@ const RoomCard = ({ room }) => {
         <img src={room.avatar} alt={room.name} className={s.img} />
         <div className={s.textCont}>
           <p className={s.texstDesc}>{room.description}</p>
-          <p className={s.textPrice}>Ціна за ніч: ₴{room.price}</p>
+          <p className={s.textPrice}>Ціна за добу: ₴{room.price}</p>
           <Link to={`/rooms/${room.id}`} className={s.linkCard}>
             Деталі
           </Link>
