@@ -46,9 +46,14 @@ const RoomDeteilsPage = () => {
       <div className={s.textContDeteils}>
         <p className={s.textDeteils}>{room.description}</p>
         <p className={s.textPrice}>Ціна за ніч: ₴{room.price}</p>
-        <Link to={"/rooms"} className={s.linkDeteils}>
-          Номери
-        </Link>
+        <div className={s.linkCont}>
+          <Link to={"/rooms"} className={s.linkDeteils}>
+            Назад
+          </Link>
+          <Link to={"/contacts"} className={s.linkDeteils}>
+            Бронювати
+          </Link>
+        </div>
       </div>
     </div>
   );

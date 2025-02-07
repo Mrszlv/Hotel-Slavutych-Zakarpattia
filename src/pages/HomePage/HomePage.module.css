@@ -1,6 +1,8 @@
 .homeCont {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 8px 16px;
   margin-bottom: 10px;
 }
@@ -86,6 +88,6 @@
 
   .imgNext {
     width: 255px;
-    height: 325px;
+    height: 310px;
   }
 }

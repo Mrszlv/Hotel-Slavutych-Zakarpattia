@@ -137,7 +137,7 @@ const initialState = {
       description:
         "Економ з двоспальним ліжком, савузол з ванною, з невеликим балконом з гарним видом на гори. В номері є: телевізор, холодильник, кондиціонер, фен, чайник(Якщо нема блекауту), та багато всього іншого для Вашого комфорту.",
       avatar:
-        "https://res.cloudinary.com/ddqtzq55a/image/upload/v1738251119/IMG_2942_blxn6r.jpg",
+        "https://res.cloudinary.com/ddqtzq55a/image/upload/v1738838599/IMG_2951_rjdxev.jpg",
       images: [
         "../../public/images/20200704_131924_Original.JPEG",
         "../../public/images/20200704_125609_Original.JPEG",
@@ -151,7 +151,7 @@ const initialState = {
       description:
         "Стандарт з двоспальним ліжком та розкладним кріслом для дитини, савузол з ванною, з невеликим балконом з гарним видом на гори. В номері є: телевізор, холодильник, кондиціонер, фен, чайник(Якщо нема блекауту), та багато всього іншого для Вашого комфорту.",
       avatar:
-        "https://res.cloudinary.com/ddqtzq55a/image/upload/v1738251119/IMG_2942_blxn6r.jpg",
+        "https://res.cloudinary.com/ddqtzq55a/image/upload/v1738838599/IMG_2951_rjdxev.jpg",
       images: [
         "../../public/images/20200704_131924_Original.JPEG",
         "../../public/images/20200704_125609_Original.JPEG",
