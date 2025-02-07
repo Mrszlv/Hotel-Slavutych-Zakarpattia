@@ -39,6 +39,9 @@ const Header = () => {
           <NavLink to="/contacts" className={buildLinkClass}>
             Контакти
           </NavLink>
+          <NavLink to="/region" className={buildLinkClass}>
+            Цікаве
+          </NavLink>
         </nav>
         <button onClick={handleOpenMenu} className={s.menuBtn}>
           <RxDropdownMenu />
@@ -66,6 +69,13 @@ const Header = () => {
               onClick={handleOpenMenu}
             >
               Контакти
+            </NavLink>
+            <NavLink
+              to="/region"
+              className={s.linkModal}
+              onClick={handleOpenMenu}
+            >
+              Цікаве
             </NavLink>
           </nav>
         </div>
