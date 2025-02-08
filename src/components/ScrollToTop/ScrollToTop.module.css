@@ -1,0 +1,36 @@
+.scroll {
+  position: fixed;
+  bottom: 90px;
+  right: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: opacity 0.5s ease, transform 0.5s ease, border-color 0.5s ease;
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.scroll:hover {
+  border-color: gray;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  transition: color 0.5s ease;
+}
+
+.icon:hover {
+  color: gray;
+}

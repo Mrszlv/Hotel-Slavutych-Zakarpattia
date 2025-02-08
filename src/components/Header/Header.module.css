@@ -81,11 +81,19 @@
 }
 
 @media screen and (min-width: 768px) {
+  .header {
+    padding: 16px 32px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
   .navDextop {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
   }
 
   .menuBtn {
@@ -132,15 +140,12 @@
   }
 }
 
-@media screen and (min-width: 768px) {
-  .title {
-    font-size: 30px;
-  }
-}
-
 @media screen and (min-width: 1440px) {
   .link {
     font-size: 20px;
     font-weight: 400;
+  }
+  .title {
+    font-size: 35px;
   }
 }

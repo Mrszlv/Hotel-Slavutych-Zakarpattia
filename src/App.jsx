@@ -10,25 +10,29 @@ import RoomDeteilsPage from "./pages/RoomDeteilsPage/RoomDeteilsPage";
 import ContactPage from "./pages/ContactPage/ContactPage";
 import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
 import RegionPage from "./pages/RegionPage/RegionPage";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 function App() {
   return (
-    <Provider store={store}>
-      <Router>
-        <Header />
-        <main>
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/rooms" element={<RoomsPage />} />
-            <Route path="/rooms/:id" element={<RoomDeteilsPage />} />
-            <Route path="/contacts" element={<ContactPage />} />
-            <Route path="/region" element={<RegionPage />} />
-            <Route path="*" element={<NotFoundPage />} />
-          </Routes>
-        </main>
-        <Footer />
-      </Router>
-    </Provider>
+    <div>
+      <Provider store={store}>
+        <Router>
+          <Header />
+          <main>
+            <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/rooms" element={<RoomsPage />} />
+              <Route path="/rooms/:id" element={<RoomDeteilsPage />} />
+              <Route path="/contacts" element={<ContactPage />} />
+              <Route path="/region" element={<RegionPage />} />
+              <Route path="*" element={<NotFoundPage />} />
+            </Routes>
+            <ScrollToTop />
+          </main>
+          <Footer />
+        </Router>
+      </Provider>
+    </div>
   );
 }
 
