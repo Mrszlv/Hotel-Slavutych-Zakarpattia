@@ -1,8 +1,47 @@
 import s from "./Footer.module.css";
 import { LiaFacebook } from "react-icons/lia";
 import { TbBrandBooking } from "react-icons/tb";
+import { useState, useRef } from "react";
+
+import emailjs from "@emailjs/browser";
+import iziToast from "izitoast";
+import "izitoast/dist/css/iziToast.min.css";
+
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
+  const form = useRef();
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleAccordion = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm("service_tglaf38", "template_aju5n74", form.current, {
+        publicKey: "5HJiJxVQzx39CK539",
+      })
+      .then(
+        () => {
+          iziToast.success({
+            title: "Успіх!",
+            message: "Наш спіробітник зателефонує наближчим часом!",
+            position: "topCenter",
+          });
+          form.current.reset();
+        },
+        (error) => {
+          iziToast.error({
+            title: "Помилка!",
+            message: "Не вдалося відправити. Спробуйте ще раз!",
+            position: "topCenter",
+          });
+        }
+      );
+  };
+
   return (
     <footer className={s.footer}>
       <div className={s.footerImgText}>
@@ -14,6 +53,41 @@ const Footer = () => {
         <p className={s.footerText}>
           © 2025 Славутич-Закарпаття. Усі права захищені.
         </p>
+        <NavLink to={"/privacy"} className={s.privacyLink}>
+          Політика конфіденційності
+        </NavLink>
+      </div>
+      <div className={s.formCont}>
+        <h3 className={s.formTitle} onClick={toggleAccordion}>
+          {isOpen ? "Закрити форму" : "Замовити зворотній дзвінок"}
+        </h3>
+        <div className={`${s.accordionContent} ${isOpen ? s.open : ""}`}>
+          <form ref={form} onSubmit={sendEmail} className={s.form}>
+            <label className={s.label}>Ім'я</label>
+            <input
+              type="text"
+              name="user_name"
+              placeholder="Введіть ім'я"
+              className={s.input}
+              required
+            />
+            <label className={s.label}>Телефон</label>
+            <input
+              type="tel"
+              name="user_phone"
+              placeholder="+380 (XX) XXX XX XX"
+              className={s.input}
+              required
+            />
+            <label className={s.label}>Повідомлення</label>
+            <textarea
+              name="user_message"
+              placeholder="Введіть повідомлення"
+              className={`${s.input} ${s.textarea}`}
+            />
+            <input type="submit" value="Відправити" className={s.inputBtn} />
+          </form>
+        </div>
       </div>
       <div className={s.footerLinksCont}>
         <a

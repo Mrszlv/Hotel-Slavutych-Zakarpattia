@@ -6,7 +6,6 @@
   align-items: center;
   justify-content: center;
   height: 700px;
-  margin: 0 auto;
 }
 
 .photoCont {
@@ -33,14 +32,55 @@
   color: white;
 }
 
+.contactsAddress {
+  margin-bottom: 15px;
+}
+
 .span {
   font-size: 10px;
   font-weight: bold;
 }
 
 .contactsText {
+  color: white;
   font-size: 20px;
   font-weight: bold;
+}
+
+.textCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+}
+
+.title {
+  color: white;
+}
+
+.text {
+  color: white;
+  text-align: justify;
+}
+
+.link {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  transition: color 0.5s ease;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.link:hover {
+  color: yellowgreen;
 }
 
 .addText {

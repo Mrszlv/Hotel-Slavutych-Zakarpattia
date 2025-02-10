@@ -11,6 +11,7 @@ import ContactPage from "./pages/ContactPage/ContactPage";
 import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
 import RegionPage from "./pages/RegionPage/RegionPage";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
               <Route path="/rooms/:id" element={<RoomDeteilsPage />} />
               <Route path="/contacts" element={<ContactPage />} />
               <Route path="/region" element={<RegionPage />} />
+              <Route path="/privacy" element={<PrivacyPolicy />} />
               <Route path="*" element={<NotFoundPage />} />
             </Routes>
             <ScrollToTop />
