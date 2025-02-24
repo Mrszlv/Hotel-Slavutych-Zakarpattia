@@ -75,7 +75,7 @@ const Footer = () => {
             <input
               type="tel"
               name="user_phone"
-              placeholder="+380 (XX) XXX XX XX"
+              placeholder="Введіть номер телефону"
               className={s.input}
               required
             />
